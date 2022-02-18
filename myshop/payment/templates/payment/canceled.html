@@ -1,0 +1,16 @@
+{% extends "shop/base.html" %}
+{% block title %}Payment canceled{% endblock %}
+{% block content %}
+ <h1>Your payment has not been processed</h1>
+ <p>There was a problem processing your payment.</p>
+{% endblock %}
+
+
+<!--
+    rabbitmq-server
+    celery -A myshop worker -l info
+    python manage.py runserver
+
+    in order to make payment success
+
+-->
